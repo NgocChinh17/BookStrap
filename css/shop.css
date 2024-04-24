@@ -1,0 +1,143 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+body{
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+header{
+    height: 100px;
+    background-color: white;
+    border-bottom: 1px solid #a4a4a4;
+}
+#menu{
+    padding: 0 30px;
+}
+.tast-menu ul{
+    display: inline-block;
+    padding: 10px 50px;
+}
+.tast-menu ul li{
+    display: inline-block;
+    padding-top: 32px;
+    padding-right: 20px;
+    font-weight: bold;
+    font-size: 16px;
+}
+.tast-menu ul li a{
+    color: black;
+}
+.money {
+    float: right;
+}
+.money p{
+    display: flex;
+    display: inline-block;
+    padding-top: 40px;
+}
+#color{
+    color: gray;
+    padding-left: 10px;
+}
+.icon{
+    clear: both;
+    float: right;
+    justify-content: center;
+    align-items: center;
+}
+
+/*main*/
+main{
+    padding: 30px 56px;
+}
+#home-icon>i{
+    font-size: 28px;
+    padding-left: 22px;
+}
+.title{
+    display: inline-block;
+    padding: 0px 12px;
+}
+.title p{
+    display: inline-block;
+}
+
+
+#main{
+    padding-top: 50px;
+    padding-left: 22px;
+}
+.name-shop p{
+    color: gray;
+    font-size: 36px;
+    padding-bottom: 20px;
+}
+.slidebar{
+    display: inline-block;
+    padding-bottom: 30px;
+}
+.slidebar button{
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-weight: bold; 
+}
+.slidebar button:hover{
+    cursor: pointer;
+    background-color: rgb(68, 63, 63);
+    color: #fff;
+}
+.slidebar button>i{
+    font-size: 9px;
+    padding-left: 20px;
+}
+.slidebar p{
+    display: inline-block;
+    padding-left: 10px;
+    color: gray;
+    font-size: 13px;
+}
+
+/*abum*/
+.content{
+    display: inline-block;
+    justify-items: center;
+    text-align: center;
+}
+.content img{
+    width: 200px;
+    height: 200px;
+    padding-bottom: 20px;
+    padding: 20px 24px;
+}
+.content p{
+    color: gray;
+    padding-bottom: 20px;
+}
+
+.icon-star{
+    padding-bottom: 20px;
+    color: blueviolet;
+}
+.icon-star p{
+    padding: 20px 0;
+}
+
+.icon-star button{
+    padding: 10px 10px;
+    border: 0;
+    font-weight: bold;
+}
+.icon-star button:hover{
+    cursor: pointer;
+    background-color: rgb(68, 63, 63);
+    color: #fff;
+}
+/*end-abum*/
+/* end main*/
+

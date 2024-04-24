@@ -1,0 +1,70 @@
+/* căn giữa trong box
+.flex-box{
+    border: 1px solid #333;
+    padding: 50px;
+    height: 50px;
+    background-color: pink;
+    position: relative;
+}
+.flex-box div{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+}
+*/
+
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.box-dflex{
+    
+    border: 1px solid #333;
+    border-radius: 10px;
+    margin: 50px 50px;
+}
+.box-show{
+    background-color: rgb(192, 11, 11);
+    color: #fff;
+    border-radius: 10px;
+    display: inline-block;
+}
+.item {
+    padding: 40px 40px;
+    float: left;
+}
+.content{
+    display: inline-block;
+}
+.anh img{
+    width: 60px;
+    height: 60px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    
+}
+.anh p{
+    float: right;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+.button{
+    float: right;
+    padding-top: 54px;
+    padding-left: 50px;
+    padding-right: 30px;
+}
+.button .chu1{
+    background-color: rgb(192, 11, 11);
+    color: #fff;
+    padding: 10px 10px;
+}
+.button .chu1:hover{
+    background-color: rgb(139, 13, 6);
+    cursor: pointer;
+}
+

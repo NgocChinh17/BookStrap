@@ -1,0 +1,33 @@
+*{
+    box-sizing: border-box;
+}
+div{
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    text-align: center;
+}
+table{
+    border-collapse: collapse;
+    margin-top: 200px;
+    margin-left: 250px;
+    font-family: sans-serif;
+}
+#ba{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 50%;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+}
+thead th{
+    padding-bottom: 20px;
+    font-weight: normal;
+}
+img{
+    width: 75px;
+    height: 50px;
+    padding-left: 20px;
+}
+tbody td{
+    padding-left: 50%;
+}

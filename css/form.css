@@ -1,0 +1,105 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    
+}
+header{
+    padding-bottom: 40px;
+    padding-top: 40px;
+    padding-left: 30px;
+}
+.logo{
+    font-size: 30px;
+    font-weight: bold;
+    padding-left: 20px;
+    display: inline-block;
+}
+.menu{
+    float: right;
+    padding-right: 100px;
+}
+.menu ul li {
+    display: inline-block;
+}
+.menu ul li a{
+    text-decoration: none;
+    color: #333;
+    padding: 0 40px;
+}
+
+main{
+    padding-left: 70px;
+    padding-bottom: 30px;
+    display: inline-block;
+}
+.title h1{
+    font-size: 45px;
+    padding-top: 60px;
+}
+.title p{
+    display: inline-block;
+}
+.footer h2{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.list-word ul li{
+    list-style: none;
+    padding: 5px 0;
+}
+.list-word ul li a{
+    text-decoration: none;
+    color: #333;
+}
+
+#wart{
+    float: right;
+    padding-right: 100px;
+}
+#wart>p{
+    padding: 10px 0;
+    padding-right: 250px;
+}
+#wart .Name{
+    width: 453px;
+    height: 30px;
+}
+#wart .email{
+    width: 453px;
+    height: 30px;
+}
+#chon{  
+    width: 453px;
+    height: 30px;
+}
+#sau{
+    width: 453px;
+    height: 30px;
+}
+#bhhh{
+    max-width: 453px;
+    width: 453px;
+    height: 100px;
+}
+#kkk{
+    background-color: rgb(175, 167, 167);
+}
+#lll{
+    background-color: rgb(170, 168, 168);
+}
+.nut{
+    padding-top: 20px;
+}
+.nut button{
+    width: 453px;
+    height: 40px;
+    background-color: black;
+    color: #fff;
+    font-weight: bold;
+}
+.nut button:hover{
+    cursor: pointer;
+}

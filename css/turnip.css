@@ -1,0 +1,13 @@
+.fist{
+    display: flex;
+    border: 1px solid #333;
+    margin: 10px;
+}
+.turnip{
+    border: 2px solid #333;
+    background-color: rgb(103, 103, 187);
+    color: #fff;
+    padding: 5px 7px;
+    border-radius: 5px;
+    margin: 0 10px 10px 0;
+}

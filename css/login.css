@@ -1,0 +1,105 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body,html{
+    background-image: url('https://png.pngtree.com/background/20210714/original/pngtree-vector-design-of-various-mountains-landscape-picture-image_1207622.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+
+.header{
+    padding-bottom: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 30px;
+}
+.header ul{
+    display: inline-block;
+}
+.header ul li{
+    display: inline-block;
+}
+.header ul li a{
+    text-decoration: none;
+    color: black;
+    padding: 0 10px;
+    font-weight: bold;
+}
+
+#logo{
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.search{
+    float: right;
+    padding-top: 9px;
+}
+.search input{
+    height: 40px;
+    width: 250px;
+    border-radius: 5px;
+    background-color: #fed9df;
+}
+.search ::placeholder{
+    padding-left: 10px;
+    font-weight: 600;
+    font-size: 16px;
+}
+.search button{
+    height: 40px;
+    width: 80px;
+    background-color: #fed9df;
+    color: green;
+    border-radius: 5px;
+}
+
+main{
+    padding-bottom: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 30px;
+    display: inline-block;
+}
+.layout h1{
+    font-size: 55px;
+}
+.layout p{
+    padding-top: 20px;
+    padding-bottom: 30px;
+    font-size: 18px;
+}
+.layout button{
+    width: 150px;
+    height: 50px;
+    background-color: #2323d2;
+    border-radius: 10px;
+    font-weight: bold;
+    color: white;
+}
+.layout button:hover{
+    cursor: pointer;
+}
+.lll{
+    display: inline-block;
+    padding-left: 350px;
+    margin-bottom: 20px;
+}
+.big-logo{
+    float: right;
+    width: 300px;
+    height: 300px;
+    background-color: #4f4949;
+    border-radius: 10px;
+    color: white;
+}
+.big-logo p{
+    text-align: center;
+    padding-top: 40%;
+    font-size: 50px;
+    font-weight: bold;
+}
